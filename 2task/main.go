@@ -1,11 +1,9 @@
 package main
 
 import (
-	
 	"fmt"
 	"strings"
 	"strconv"
-
 	/*
 	"bufio"
   	"os"
@@ -36,12 +34,8 @@ func main(){
 	max := res[0]
 	min := res[0]
 	for i := 0; i < len(res); i++ {
-		if res[i] > max {
-			max = res[i]
-		}
-		if res[i] < min {
-			min = res[i]
-		}
+		if res[i] > max { max = res[i] }
+		if res[i] < min { min = res[i] }
 	}
 
 	//adjusting the result string
@@ -54,7 +48,4 @@ func main(){
 		fmt.Println(result)
 	}
 
-    //...
-    // тут має бути ваш код
-    // змінна result в кінці функції має тримати стрінг з правильними результатами, згідно до умови задачі
 }
