@@ -2,12 +2,9 @@ package main
 
 import "fmt"
 
-var (
-	inputNum, i int
-)
-
 func main() {
 
+	var inputNum, i int
 	fmt.Println("Enter a whole number to check if it is prime:")
 	fmt.Scan(&inputNum)
 	if inputNum == 1 { 
