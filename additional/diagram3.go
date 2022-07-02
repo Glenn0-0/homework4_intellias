@@ -2,13 +2,9 @@ package main
 
 import "fmt"
 
-var (
-	inputNum, i int
-	count int = 0
-)
-
 func main() {
-
+	var inputNum, i int
+	var count int = 0
 	fmt.Println("Enter a number to see its first 10 multiples:")
 	fmt.Scan(&inputNum)
 	i = inputNum
